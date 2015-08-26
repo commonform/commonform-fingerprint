@@ -1,0 +1,16 @@
+{
+  "name": "commonform-fingerprint",
+  "description": "create Common Form fingerprints",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "devDependencies": {
+    "commonform-fingerprint-parse": "~0.1.0",
+    "defence-cli": "~1.0.1",
+    "replace-require-self": "~1.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": "commonform/commonform-fingerprint",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
